@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agama - Edutrip</title>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      font-family: 'Quicksand', sans-serif;
+      background-color: #fffdf7;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      color: #444;
+    }
+
+    nav {
+      background: linear-gradient(90deg, #a8dadc, #fcbf49);
+      padding: 14px 0;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 18px;
+    }
+
+    nav a {
+      color: #fff;
+      font-weight: 600;
+      text-decoration: none;
+      padding: 10px 18px;
+      border-radius: 10px;
+      background-color: rgba(255, 255, 255, 0.2);
+      transition: background 0.3s ease, transform 0.2s;
+    }
+
+    nav a:hover {
+      background-color: rgba(255, 255, 255, 0.4);
+      transform: scale(1.05);
+    }
+
+    header {
+      background-color: #ffd6e0;
+      padding: 40px 20px;
+      text-align: center;
+      animation: fadeInHeader 1s ease-out forwards;
+    }
+
+    @keyframes fadeInHeader {
+      from { opacity: 0; transform: scale(0.95); }
+      to { opacity: 1; transform: scale(1); }
+    }
+
+    header h1 {
+      font-size: 34px;
+      margin-bottom: 8px;
+      color: #c94f7c;
+    }
+
+    header p {
+      font-size: 18px;
+      color: #555;
+    }
+
+    .content {
+      flex: 1;
+      padding: 35px 20px;
+      max-width: 900px;
+      margin: 0 auto 30px;
+      background-color: #fef6e4;
+      border-radius: 18px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+      animation: slideUp 0.8s ease-in-out;
+    }
+
+    @keyframes slideUp {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .content h2 {
+      font-size: 24px;
+      margin-bottom: 10px;
+      color: #ff8fab;
+    }
+
+    .content p {
+      font-size: 17px;
+      line-height: 1.6;
+    }
+
+    .pastel-table {
+      width: 100%;
+      border-collapse: separate;
+      border-spacing: 0;
+      background-color: #ffffff;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+      margin-top: 20px;
+    }
+
+    .pastel-table thead {
+      background-color: #d0f4de;
+    }
+
+    .pastel-table th,
+    .pastel-table td {
+      padding: 16px;
+      text-align: left;
+      border-bottom: 1px solid #eee;
+      vertical-align: top;
+    }
+
+    .pastel-table th {
+      color: #444;
+      font-size: 16px;
+      font-weight: 600;
+    }
+
+    .pastel-table td {
+      font-size: 15px;
+      color: #555;
+    }
+
+    .pastel-table img {
+      border-radius: 10px;
+      max-width: 100%;
+      height: auto;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      background-color: #84a59d;
+      color: white;
+      text-align: center;
+      padding: 16px;
+      font-size: 16px;
+      margin-top: auto;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="index.html">Beranda</a></li>
+      <li><a href="Agama.html">Agama</a></li>
+      <li><a href="Pkn.html">PKN</a></li>
+      <li><a href="BahasaIndonesia.html">B. Indonesia</a></li>
+      <li><a href="Bing.html">B. Inggris</a></li>
+      <li><a href="Ips.html">IPS</a></li>
+      <li><a href="Mandarin.html">Mandarin</a></li>
+    </ul>
+  </nav>
+
+  <header>
+    <h1>Halaman Agama</h1>
+    <p>Pembelajaran dan pengalaman selama kunjungan Edutrip di Yogyakarta</p>
+  </header>
+
+  <section class="content">
+    <h2>Pembelajaran Agama</h2>
+    
+    <p> Saat di Jogja saya melakukan kunjungan ke Gereja Santa Maria Assumpta, Pakem. 
+    </p>
+  
+    <table class="pastel-table">
+      <thead>
+        <tr>
+          <th>No</th>
+          <th>Pertanyaan</th>
+          <th>Jawaban</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Amatilah bangunan Gereja yang kamu kunjungi, apakah keunikan bangunan gereja yang kamu kunjungi?</td>
+          <td>Gereja yang saya kunjungi sangat sederhana, dimana tidak terdapat AC dan gedungnya seperti bangunan tua.</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Ceritakanlah sejarah yang ada di Gereja yang kamu kunjungi!</td>
+          <td>Terdapat umat pada 1924, tetapi tidak terdaapt gereja. Sebab dari perkembangan umat, gereja dibangun pada 1958.</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Perbedaan apa yang kamu temukan di Gereja yang kamu kunjungi dibandingkan dengan Gereja di Laurensius!</td>
+          <td>Gereja Laurensius lebih luas dan modern, dibandingkan gereja yang saya kunjungin. Gereja yang saya kungjungin hanya memiliki kipas.</td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <img src="gereja.jpg" >
+  </section>
+  <footer>
+    &copy; 2025 Edutrip Jogja — Belajar sambil jalan-jalan ✨
+  </footer>
+</body>
+</html>
